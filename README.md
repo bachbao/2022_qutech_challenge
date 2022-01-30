@@ -12,14 +12,14 @@ Quantum Key Distribution (QKD) is a secure communication method which implements
 
 An important and unique property of QKD is the ability of the two communicating users to detect the presence of any third party interference trying to gain the knowledge f the key. By using quantum superpositions or quantum entanglement and transmitting information in quantum states , a communication system can be implemented that detects eavesdropping. 
 
-    PROPERTIES AND MERITS:
-      1. Relies on the principles of quantum mechanics in contrast to traditional public key cryptography which relies on cerain mathematical functions.
-      2. QKD has provable security based on informtion theory , and forward secrecy.
-      
-    DRAWBACKS:
-      1. It relies on having an authenticated classical channel of communications.
-      2. In modern cryptography, having an authenticated class channel means that one has either already developed or exchanged a symmetric key of sufficient length. 
-      3. Thus QKD does the work of a stream cipher at many times the cost.
+PROPERTIES AND MERITS:
+  1. Relies on the principles of quantum mechanics in contrast to traditional public key cryptography which relies on cerain mathematical functions.
+  2. QKD has provable security based on informtion theory , and forward secrecy.
+
+DRAWBACKS:
+  1. It relies on having an authenticated classical channel of communications.
+  2. In modern cryptography, having an authenticated class channel means that one has either already developed or exchanged a symmetric key of sufficient length. 
+  3. Thus QKD does the work of a stream cipher at many times the cost.
 
 
 
