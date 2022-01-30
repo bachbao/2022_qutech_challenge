@@ -30,9 +30,10 @@ Quantum computers with higher volume can be used to break RSA crypo-systems, a p
 
 
 <a href="https://qt.eu/discover-quantum/underlying-principles/quantum-key-distribution-qkd/" target="_blank"><img src="https://qt.eu//app/uploads/2018/11/qkd.jpg" width="75%" style="padding-left: 0%"/> </a>
+## MQTT protocol
+MQTT is an OASIS standard messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth. MQTT today is used in a wide variety of industries, such as automotive, manufacturing, telecommunications, oil and gas, etc.## Implementation of Two user MQTT protocol and extension to multiuser. (from https://mqtt.org/)
 
-## Implementation of Two user MQTT protocol and extension to multiuser
-
+Therefore, we decide to use this protocol to implement the QKD .
 <a target="_blank"><img src="https://cdn.mathpix.com/snip/images/GXEn2GxUTY8ZKxd8ovKnTPl0kJdDLhc_xRroZ8bTlZ4.original.fullsize.png" width="75%" style="padding-left: 0%"/> </a>
 
 * User A and User B publish the basis they chose bases to the intermediate feed, and the interface as a subscriber to that feed will receive messages from them. 
@@ -46,6 +47,9 @@ If we expand this to multi-user,
 <a  target="_blank"><img src="https://cdn.mathpix.com/snip/images/2lJuVsRsjnO1NgPZ_MFq1xsKlA5yiwh_cHkpTJPrzGM.original.fullsize.png" width="75%" style="padding-left: 0%"/> </a>
 
 In order to expand the network from our system of two, one user will become the host, and for each user other than the host will develop a quantum key distribution between the host and themselves. Take the 5-users network as an example, if user 5 want to send the messages to others, he will first create a quantum key 15 with the host followed the first picture in the first page I drew . And information then is encrypted by this quantum key 15 and be sent to user 1 (host). After user 1 (host) decode the information, he will use the quantum key encrypting based on QK12, QK13, and QK14 and sent to user 2, 3, and 4 respectively. Other user can get the information by decoded based on their Quantum key.
+
+## Coding part
+There are two jupyter notebook in the src file. One is Sender.ipynb for user and one is  Intermediate_Interface.ipynb for the intermediate interface. If a user want to join the network they will use the sender file and one computer need to host and use the Intermediate_Interface.ipynb file. To be simple Sender.ipynb is for user to interact with the server and the Intermediate_Interface.ipynb create the key between the user by using MQTT protocol(Adafruit server).
 
 ## Personal Experience
 
