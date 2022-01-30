@@ -33,11 +33,11 @@ Quantum computers with higher volume can be used to break RSA crypo-systems, a p
 
 ## Implementation of Two user MQTT protocol and extension to multiuser
 <a target="_blank"><img src="https://drive.google.com/file/d/1cntzVQsoauVlh-oSgdEkAjpxzdDRNRe_/view?usp=sharing" width="75%" style="padding-left: 0%"/> </a>
-•	User A and User B publish the basis they chose to the intermediate feed, and the interface as a subscriber receive messages from them. 
-•	The intermediate interface can then generate the random number, which will then be sent to the Quantum Inspire.
-•	The measurement also done in the quantum inspire in the basis of user A and user B chosen sequentially. 
-•	The result then sends back to the intermediate interface. The interface then will publish the results for A and B to the Feed A and B respectively so that user A and user B only receive their one result.
-•	Then they can communicate with each other openly discussing the basis they chosen and the result they get.
+--	User A and User B publish the basis they chose to the intermediate feed, and the interface as a subscriber receive messages from them. 
+--	The intermediate interface can then generate the random number, which will then be sent to the Quantum Inspire.
+--	The measurement also done in the quantum inspire in the basis of user A and user B chosen sequentially. 
+--	The result then sends back to the intermediate interface. The interface then will publish the results for A and B to the Feed A and B respectively so that user A and user B only receive their one result.
+--	Then they can communicate with each other openly discussing the basis they chosen and the result they get.
 
 If we expand this to multi-user,
 
