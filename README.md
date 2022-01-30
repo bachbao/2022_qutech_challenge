@@ -14,7 +14,7 @@ Quantum Key Distribution (QKD) is a secure communication method which implements
 
 An important and unique property of QKD is the ability of the two communicating users to detect the presence of any third party interference trying to gain the knowledge f the key. By using quantum superpositions or quantum entanglement and transmitting information in quantum states , a communication system can be implemented that detects eavesdropping. 
 
-Quantum computers with higher volume can be used to break RSA crypo-systems, a pillar on which most of today's algorithms are based on. Quantum key distribution can be used 
+Quantum computers with higher volume can be used to break RSA crypo-systems, a pillar on which most of today's banking encryption systems are based on. The proposed system can be used to carry out the transfer of payment from one user to another. As a further extension multi-user interface proposed can be used to carryout out multiple customer transactions at the same time.
 
 
    **PROPERTIES AND MERITS**:
