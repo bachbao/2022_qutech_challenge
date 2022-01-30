@@ -31,9 +31,11 @@ Quantum computers with higher volume can be used to break RSA crypo-systems, a p
 
 <a href="https://qt.eu/discover-quantum/underlying-principles/quantum-key-distribution-qkd/" target="_blank"><img src="https://qt.eu//app/uploads/2018/11/qkd.jpg" width="75%" style="padding-left: 0%"/> </a>
 ## MQTT protocol
-MQTT is an OASIS standard messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth. MQTT today is used in a wide variety of industries, such as automotive, manufacturing, telecommunications, oil and gas, etc.## Implementation of Two user MQTT protocol and extension to multiuser. (from https://mqtt.org/)
+MQTT is an OASIS standard messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth. MQTT today is used in a wide variety of industries, such as automotive, manufacturing, telecommunications, oil and gas, etc.(from https://mqtt.org/)
 
 Therefore, we decide to use this protocol to implement the QKD .
+
+## Implementation of Two user MQTT protocol and extension to multiuser.
 <a target="_blank"><img src="https://cdn.mathpix.com/snip/images/GXEn2GxUTY8ZKxd8ovKnTPl0kJdDLhc_xRroZ8bTlZ4.original.fullsize.png" width="75%" style="padding-left: 0%"/> </a>
 
 * User A and User B publish the basis they chose bases to the intermediate feed, and the interface as a subscriber to that feed will receive messages from them. 
