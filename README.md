@@ -26,7 +26,7 @@ An important and unique property of QKD is the ability of the two communicating 
       3. Thus QKD does the work of a stream cipher at many times the cost.
 
 
-<a href="https://qt.eu/discover-quantum/underlying-principles/quantum-key-distribution-qkd/" target="_blank"><img src="https://qt.eu//app/uploads/2018/11/qkd.jpg" width="10%" style="padding-left: 0%"/> </a>
+<a href="https://qt.eu/discover-quantum/underlying-principles/quantum-key-distribution-qkd/" target="_blank"><img src="https://qt.eu//app/uploads/2018/11/qkd.jpg" width="100%" style="padding-left: 0%"/> </a>
 
 ## Scoring and Submission
 
