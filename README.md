@@ -41,7 +41,8 @@ Quantum computers with higher volume can be used to break RSA crypo-systems, a p
 
 If we expand this to multi-user,
 
-<a href="https://qt.eu/discover-quantum/underlying-principles/quantum-key-distribution-qkd/" target="_blank"><img src="https://qt.eu//app/uploads/2018/11/qkd.jpg" width="75%" style="padding-left: 0%"/> </a>
+<a  target="_blank"><img src="https://cdn.mathpix.com/snip/images/2lJuVsRsjnO1NgPZ_MFq1xsKlA5yiwh_cHkpTJPrzGM.original.fullsize.png" width="75%" style="padding-left: 0%"/> </a>
+
 One user will become the host, and for each user other than the host will develop a quantum key distribution between the host and themselves. Take the 5-users network as an example, if user 5 want to send the messages to others, they will have a quantum key 15 with the host only, followed the first picture in the first page I drew. And information is encrypted by this quantum key 15. After user 1 decode the information, he will use the quantum key encrypting based on QK12, QK13, and QK14 and sent to user 2, 3, and 4 respectively. Other user can get the information by decoded based on their Quantum key.
 
 ## Personal Experience
