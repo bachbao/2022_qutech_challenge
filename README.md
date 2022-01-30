@@ -8,7 +8,7 @@
 
 ## Description of Quantum Key Distribution Protocol
 
-Quantum Key Distribution (QKD) is a secure communication method which implements a cryptographic protocol involving components quantum mechanics. It enables two parties  to produce a shared random secret key known only to them, which can then be used to encrypt and decrypt messages. It is often incorrectly called Quantum cryptography, as it is the best known example of such a task.
+Quantum Key Distribution (QKD) is a secure communication method which implements a cryptographic protocol involving components of quantum mechanics. It enables two parties  to produce a shared random secret key known only to them, which can then be used to encrypt and decrypt messages. It is often incorrectly called Quantum cryptography, as it is the best known example of such a task.
 
 An important and unique property of QKD is the ability of the two communicating users to detect the presence of any third party interference trying to gain the knowledge f the key. By using quantum superpositions or quantum entanglement and transmitting information in quantum states , a communication system can be implemented that detects eavesdropping. 
 
