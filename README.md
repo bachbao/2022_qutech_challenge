@@ -6,14 +6,22 @@
 </p>
 
 
-## Description 
+## Description of Quantum Key Distribution Protocol
 
-For the 2022 edition of the iQuHack (interdisciplinary Quantum HACKathon), [QuTech](https://qutech.nl) has partnered with the team at MIT to propose 2 challenges, hosted in our own multi-hardware Quantum Technology platform, [Quantum Inspire](https://www.quantum-inspire.com). These aim to draw participants to the challenges at the heart of our mission: to develop scalable prototypes of a quantum computer and an inherently safe quantum internet, based on the fundamental laws of quantum mechanics.
+Quantum Key Distribution (QKD) is a secure communication method which implements a cryptographic protocol involving components quantum mechanics. It enables two parties  to produce a shared random secret key known only to them, which can then be used to encrypt and decrypt messages. It is often incorrectly called Quantum cryptography, as it is the best known example of such a task.
 
-To qualify for the QuTech Division Challenge, participants should submit a project that addresses either the proposed Quantum Error Correction (QEC) challenge or the Quantum Key Distribution (QKD) challenge. Detailed descriptions of these two challenges and their goals are available in the documents linked below (hosted in this repository):
+An important and unique property of QKD is the ability of the two communicating users to detect the presence of any third party interference trying to gain the knowledge f the key. By using quantum superpositions or quantum entanglement and transmitting information in quantum states , a communication system can be implemented that detects eavesdropping. 
 
-- [Quantum Error Correction Challenge](https://github.com/iQuHACK/2022_qutech_challenge/blob/main/QuantumErrorCorrectionChallenge.pdf)
-- [Quantum Key Distribution Challenge](https://github.com/iQuHACK/2022_qutech_challenge/blob/main/QuantumKeyDistrubutionChallenge.pdf)
+    PROPERTIES AND MERITS:
+      1. Relies on the principles of quantum mechanics in contrast to traditional public key cryptography which relies on cerain mathematical functions.
+      2. QKD has provable security based on informtion theory , and forward secrecy.
+      
+    DRAWBACKS:
+      1. It relies on having an authenticated classical channel of communications.
+      2. In modern cryptography, having an authenticated class channel means that one has either already developed or exchanged a symmetric key of sufficient length. 
+      3. Thus QKD does the work of a stream cipher at many times the cost.
+
+
 
 
 ## Scoring and Submission
