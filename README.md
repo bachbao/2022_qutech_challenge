@@ -19,14 +19,14 @@ Quantum computers with higher volume can be used to break RSA crypo-systems, a p
 
    **PROPERTIES AND MERITS**:
    
-      1. Relies on the principles of quantum mechanics in contrast to traditional public key cryptography which relies on cerain mathematical functions.
-      2. QKD has provable security based on information theory , and forward secrecy.
+   1. Relies on the principles of quantum mechanics in contrast to traditional public key cryptography which relies on cerain mathematical functions.
+   2. QKD has provable security based on information theory , and forward secrecy.
       
    **DRAWBACKS**:
    
-      1. It relies on having an authenticated classical channel of communications.
-      2. In modern cryptography, having an authenticated class channel means that one has either already developed or exchanged a symmetric key of sufficient length. 
-      3. Thus QKD does the work of a stream cipher at many times the cost.
+   1. It relies on having an authenticated classical channel of communications.
+   2. In modern cryptography, having an authenticated class channel means that one has either already developed or exchanged a symmetric key of sufficient length. 
+   3. Thus QKD does the work of a stream cipher at many times the cost.
 
 
 <a href="https://qt.eu/discover-quantum/underlying-principles/quantum-key-distribution-qkd/" target="_blank"><img src="https://qt.eu//app/uploads/2018/11/qkd.jpg" width="75%" style="padding-left: 0%"/> </a>
