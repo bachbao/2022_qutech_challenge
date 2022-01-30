@@ -32,7 +32,9 @@ Quantum computers with higher volume can be used to break RSA crypo-systems, a p
 <a href="https://qt.eu/discover-quantum/underlying-principles/quantum-key-distribution-qkd/" target="_blank"><img src="https://qt.eu//app/uploads/2018/11/qkd.jpg" width="75%" style="padding-left: 0%"/> </a>
 
 ## Implementation of Two user MQTT protocol and extension to multiuser
-<a target="_blank"><img src="https://drive.google.com/file/d/1cntzVQsoauVlh-oSgdEkAjpxzdDRNRe_/view?usp=sharing" width="75%" style="padding-left: 0%"/> </a>
+
+<a target="_blank"><img src="https://cdn.discordapp.com/attachments/936668359162994728/937387589776863353/Flowchart.jpg" width="75%" style="padding-left: 0%"/> </a>
+
 * User A and User B publish the basis they chose bases to the intermediate feed, and the interface as a subscriber to that feed will receive messages from them. 
 * The intermediate interface can then generate the random initial state, which will then be sent to the Quantum Inspire.
 * The measurement is done in the quantum inspire in the basis of user A and user B chosen by creating the quantum circuit with A as qubit 0 and B as qubit 1. 
